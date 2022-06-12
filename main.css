@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(rgb(32, 194, 181, 0.353),rgb(32, 194, 181, 0.353)),url("images/openbg.jpg");
+    background-size: cover;
+    margin: 0;
+    
+   
+   
+}
+
+div{
+    position: absolute;
+    background-color: #8ac8e15f;
+    width: 100%;
+    text-align: center;
+    font-family: "Satisfy";
+    top:30%;
+   
+    margin: 0;
+    color:white;
+}
+h1{
+    font-size: 100px;
+}
+a{
+    background-color: #4f0303;
+    padding: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family: cursive;
+    border-radius: 10px;
+    
+
+}
+
+a:hover{
+    background-color: lightblue;
+    color:black;
+    
+}
+
+div:hover{
+    background-color: rgba(3, 71, 83, 0.36);
+    transition: 2s;
+
+}   

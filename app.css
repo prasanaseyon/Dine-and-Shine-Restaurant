@@ -1,0 +1,111 @@
+.rc{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/ocl.png");
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.rc2{
+    background-color: rgba(0, 0, 0, 0.479);
+    position:absolute;
+    top:20%;
+    left: 10%;
+   color: white;
+    width:80%;
+    height:80%;
+    padding: 30px;
+    border-radius: 10px;
+  
+
+}
+.main1{
+    background-color: rgba(127, 203, 213, 0);
+    border: none;
+    position: absolute;
+    width: 100%;
+    
+    top:0;
+    left: 0;
+    right:0;
+    text-align: center;
+    padding: 20px;
+}
+.main1:hover{
+    background-color:  rgba(44, 233, 192, 0.425);
+    transition: 2s;
+    
+}
+
+
+.rc2:hover{
+    background-color: rgba(44, 233, 192, 0.425);
+    
+    color:white;
+    border: 2px solid black;
+    transition: background-color 2s;
+
+}
+
+
+.steps-box:first-child{
+    margin-top: 30px;
+    text-align: right;
+    padding: 3%;
+
+}
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+.app-screen{
+    width: 40%;
+    position: relative;
+    margin-left: 45%;
+    
+    
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
+.works-step div{
+    color:#e67e22;
+    border: 2px solid #e67e22;
+    
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+
+
+}
+
+.backbox{
+    width: 100px;
+    height: 50px;
+    
+    
+    position: absolute;
+   
+}
+
+.backbox img{
+    width: 100%;
+    height: 100%;
+    
+}
+a{
+    text-decoration: none;
+}

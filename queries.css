@@ -1,0 +1,333 @@
+/* Big Tablets 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width:1200px){
+    body{
+        background-color: rgba(32, 195, 210, 0.841);
+    }
+    .hero-text-box{
+        
+        width:100%;
+        padding: 0 2%;
+    }
+    .main,.main1{
+        height: 15%;
+    }
+    .main1:hover{
+        background-color: rgba(0, 0, 0, 0.373);
+    }
+    
+    .r,.rc{
+        background: none;
+        
+    }
+    .r2,.rc2{
+       height: max-content;
+        border-radius: 0px;
+        padding: 10px;
+       
+    }
+    .r2:hover,
+    .rc2:hover{
+        background-color: rgba(0, 0, 0, 0.758);
+    }
+
+    .row{
+        padding: 2%;
+       
+    }
+
+   h1{
+    font-size: 30px;
+   }
+   h2{
+    font-size: 20px;
+   }
+   h3{
+    font-size:15px;
+   }
+  
+   
+
+   .logo{
+     width: 15%;
+     height: 25%;
+     position: absolute;
+   }
+
+   .logo1{
+    height: 40px;
+   }
+
+   
+
+   .meal-photo .d{
+    
+    font-size: 15px;
+    background: none;
+  
+}
+
+.backbox{
+    height: 40px;
+    width:40px;
+}
+
+.icon-big{
+    width:40px;
+    height: 40px;
+}
+
+.section-features .box,
+.section-cities .box{
+    width: 100%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    background-color: rgba(117, 117, 117, 0.107);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .section-cities h3{
+    text-align: left;
+    margin: 0 20px;
+  }
+.works-step p{
+    text-align: center;
+}
+
+.section-form h2{
+    color: aliceblue;
+}
+.meals-showcase li{
+    width: 100%;
+    float: right;
+    display: block;
+    
+    
+}
+.meal-photo{
+    width: 100%;
+}
+
+h2{
+    font-size: 25px;
+   }
+.icon-big{
+    width:40px;
+    height: 40px;
+    margin: 5px auto;
+    
+}
+.mr{
+    width: 100%;
+    height: 35%;
+    
+}
+.mr h1{
+    font-size: 50px;
+}
+.mr a{
+    margin: 0 auto;
+}
+
+}
+
+
+/* small tablet to bid tablet: from 767px to 1023px */
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+    
+    section{
+        padding: 60px 0;
+    }
+
+    
+     .logo{
+        visibility: hidden;
+     }
+     .logo1{
+        width: auto;
+        height: 20px;
+     }
+
+     .long-copy{
+        width: 80%;
+        margin-left: 10%;
+     }
+
+     .main-nav{
+        text-align: center;
+     }
+     .main-nav li{
+        padding: 0;
+        margin-left: 10px;
+      
+     }
+
+    .meals-showcase li{
+        width: 100%;
+        float: right;
+        display: block;
+        
+    }
+    .meal-photo{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 18px;
+       }
+    .icon-big{
+        width:20px;
+        height: 20px;
+        margin: 5px auto;
+        
+    }
+
+    .section-features .box,
+    .section-cities .box{
+        width: 100%;
+        margin:0 auto;
+        margin-bottom: 20px;
+        background-color: rgba(117, 117, 117, 0.107);
+        padding: 20px;
+        border-radius: 10px;
+      }
+    .section-steps .box{
+        width: 100%;
+        
+        
+    }
+
+    .section-steps .app-screen{
+        margin: 0 30%;
+
+    }
+    .works-step div{
+          width: 40px;
+          height: 40px;
+          font-size: 20px;
+    }
+    .works-step p{
+        text-align: justify;
+       
+    }
+
+   .btn-app{
+        margin: 0 40%;
+        
+    }
+
+    .btn-app img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .section-form .box{
+        background: none;
+        width: 100%;
+        margin:0 auto;
+        font-weight: none;
+       font-family: 'Lato';
+        
+        border-radius: 10px;
+
+    }
+    .section-form h2{
+        color: aliceblue;
+    }
+
+    
+
+    .contact-form div{
+       
+       
+        width: 100%;
+        margin: 0 auto;
+       
+        
+    }
+
+    .contact-form label{
+        width: 100%;
+       
+    }  
+    .mr{
+        width: 100%;
+        height: 35%;
+        
+    }
+    .mr h1{
+        font-size: 50px;
+    }
+    .mr a{
+        margin: 0 auto;
+    }
+}
+
+
+/* small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width:767px){
+    h1{
+        font-size: 20px;
+    }
+
+    .logo{
+      visibility: hidden;
+    }
+
+  
+   .meal-photo .d{
+    font-size: 10px;
+   }
+   
+   .works-step p{
+    text-align: center;
+   
+}
+.main,.main1{
+    height: 10%;
+}
+.mr{
+    width: 100%;
+    height: 35%;
+    
+}
+.mr h1{
+    font-size: 50px;
+}
+.mr a{
+    margin: 0 auto;
+}
+
+  
+
+}
+
+
+/* small phones: from 0 to 500px */
+@media only screen and (max-width:500px){
+    .main-nav{
+        font-size: 10px;
+    }
+    .mr{
+        width: 100%;
+        height: 35%;
+        
+    }
+    .mr h1{
+        font-size: 50px;
+    }
+    .mr a{
+        margin: 0 auto;
+    }
+
+    .main1{
+        height: 15%;
+    }
+    .logo2{
+        visibility: hidden;
+    }
+
+}
